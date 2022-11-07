@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+}
+.navbaar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color : black;
+    height: 12vh;  
+    width: 100%;
+}
+
+.menus ul li{
+    display: inline-block;
+    padding: 0 10px;
+    list-style: none;
+}
+
+.menus a {
+    
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+}
+
+.logo{
+    padding: 0 15px;
+    font-size: 24px;
+    color: white;
+    margin-right: auto;
+}
+
+.banner{
+    background-image: url('/img/banner.jpg');
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 80vh;    
+}
+
+.banner h1{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding: 70px 0px;
+    font-weight: 700;
+}
+
+.botton{
+    position: absolute;
+    left: 41%;
+}
+
+.btn{
+    padding: 12px 15px;
+    color: white;
+    font-size: 18px;
+    background-color:green;
+    cursor: pointer;
+    text-decoration: none;
+    opacity: 0.9;
+    font-weight: 700;
+}
+
+.btn2{
+    padding: 12px 15px;
+    color: white;
+    font-size: 18px;
+    border: 1px solid green;
+    background-color: black;
+    cursor: pointer;
+    
+    text-decoration: none;
+    font-weight: 700;
+    opacity: 1;
+}
+
+
+.btn3{
+    padding: 5px 10px;
+    color: white;
+    font-size: 16px;
+    border-radius: 25px;
+    background-color: green;
+    cursor: pointer;
+    text-decoration: none;
+}
+.h1{
+    margin: 15px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.pricing{
+   margin-bottom: 10px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   /* padding: 10px 25px; */
+}
+
+.box{
+    border: 2px solid green;
+    height: 350px;
+    width: 290px;
+    padding: 20px 30px;
+    border-radius: 15px;
+    margin: 15px 0px;
+}
+
+.box h2{
+    text-align: center;
+    font-size: 35px;
+}
+.box ul li{
+    list-style: none;
+    margin: 15px;
+}
+
+.box a{
+    text-decoration: none;
+    font-size: 24px;
+    text-align: center;
+}
+
+.box strong{
+    font-size: 30px;
+}
+
+.box .btn{
+    margin: 25px 10px;
+    padding: 12px 15px;
+    color: white;
+    font-size: 18px;
+    background-color: blue;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.offer{
+    margin: 10px 10px;
+    text-align: center;
+}
+
+.offer h3{
+    color: blue;
+    font-size: 20px;
+}
+
+.offer h1{
+    color: green;
+    font-weight: 700;
+    font-size: 50px;
+
+}
+
+.offer .btn-offer{
+    margin-top: 10px;
+    padding: 5px 10px;
+    color: white;
+    font-size: 25px;
+    border-radius: 5px;
+    background-color: blue;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.Box-Trainers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 25px;
+}
+
+.Trainers h1{
+       text-align: center;
+       font-size: 40px;
+}
+
+.Box-Trainers img{
+   width: 200px;
+   height: 190px;
+}
+
+.box-1{
+    border: 2px solid green;
+    height: 250px;
+    width: 250px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin: 15px 10px;
+}
+
+.forms{
+    display: flex;
+    justify-content: flex-start;
+    background-color: black;
+}
+
+.form h1{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.forms .form{
+     margin-left: 2px;
+     width: 100%;
+     padding: 10px 55px;  
+}
+
+.forms .form label{
+   font-size: 24px;
+   color: white;
+}
+
+.forms .form input{
+    height: 18px;
+    padding: 10px 10px;
+    width: 300px;
+    margin: 5px 0px;
+   
+ }
+
+.forms img{
+    width: 60%;
+    height: 40%;
+}
+
+.forms .btn-forms{
+    padding: 5px 10px;
+    color: white;
+    font-size: 24px;
+    border-radius: 5px;
+    background-color: green;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#footer{
+    background-color: black;
+    margin-top: 10px;
+}
+
+.footer_info{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 20px;
+}
+
+.footer_info .links {
+    font-size: 18px;
+    color: white;
+}
+
+.footer_info .links h1{
+    color: white;
+    text-align: center;
+    margin: 8px 0px;
+}
+
+.links li{
+    list-style: none;
+    padding: 8px 0px;
+}
+
+.links li a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.time li{
+    list-style: none;
+    padding: 8px 0px;
+}
+
+.footer_info .time {
+    color: white;
+}
+
+.footer_info .time h1{
+    color: white;
+    text-align: center;
+    margin: 8px 0px;
+}
+.time li {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.time  i{
+    color: blue;
+    font-size: 18px;  
+}
+
+.contect h1{
+    color: white;
+    margin: 8px 0px;
+}
+
+.contect a{
+    font-size: 22px;
+    color: white;
+}
+
+.Social h1{
+    text-align: center;
+    color: white;
+    margin: 8px 0px ;
+}
+
+.Social h4{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    font-size: 50px;
+}
+.Social img{
+    width: 40px;
+    height: 40px;
+    margin: 0px 5px;
+}
+
+.others h3{
+    color: white;
+    text-align: center;
+    padding: 15px 0px;
+    font-size: 22px;
+}
+
